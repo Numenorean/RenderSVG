@@ -1,7 +1,4 @@
-# RenderSVG
-Script that "converts" svg to png
-
-### Usage:
+# Usage:
 ```
 Make request to the http://localhost:26497/svg2png?width=450&height=150&r=0&g=0&b=0&a=255&addBackground=true
 Where width and height are render size settings(must multiply or devide by the same value)
@@ -15,5 +12,5 @@ Script returns also json e.g.
 {"data":"long base64 string..."}
 where data is converted svg data to the png format, also in base64
 ```
-# Credits to:
+### Credits to:
 https://stackoverflow.com/a/63227777/13266817
